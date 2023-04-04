@@ -1,0 +1,99 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+/* just writing css for login */
+
+
+#thisIsLoginDivShdow{
+  box-shadow: -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+}
+#blogCard{
+  -webkit-box-shadow: 0px 0px 42px 0px rgba(166, 159, 166, 1);
+    -moz-box-shadow: 0px 0px 42px 0px rgba(166, 159, 166, 1);
+    box-shadow: 0px 0px 42px 0px rgba(166, 159, 166, 1);
+}
+
+
+/* horizontal scroll bar
+ */
+
+ div.scrollmenu {
+   background-color: #333;
+   overflow: auto;
+   white-space: nowrap;
+   padding-left: 150px;
+ }
+
+ div.scrollmenu a {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+ }
+
+ div.scrollmenu a:hover {
+   background-color: #777;
+   
+ }
+ body{
+  background-color: #F3F9FB ;
+ }
+
+ #readMore:hover{
+  background-color:#87C0CD;
+ }
+ .name-topic{
+    font-weight: 600;
+ }
+
+ .creatBlogDiv{
+  -webkit-box-shadow: 0px 0px 40px 2px rgba(199, 191, 199, 1);
+    -moz-box-shadow: 0px 0px 40px 2px rgba(199, 191, 199, 1);
+    box-shadow: 0px 0px 40px 2px rgba(199, 191, 199, 1);;
+ }
